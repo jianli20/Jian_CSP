@@ -13,13 +13,13 @@
 		CA6A42B41FA256AA00CC5DDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6A42B21FA256AA00CC5DDE /* Main.storyboard */; };
 		CA6A42B61FA256AA00CC5DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6A42B51FA256AA00CC5DDE /* Assets.xcassets */; };
 		CA6A42B91FA256AA00CC5DDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6A42B71FA256AA00CC5DDE /* LaunchScreen.storyboard */; };
-		CA6A42D41FA25B3E00CC5DDE /* CreativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42D31FA25B3E00CC5DDE /* CreativityController.swift */; };
-		CA6A42D61FA25B4F00CC5DDE /* AbstrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42D51FA25B4F00CC5DDE /* AbstrationController.swift */; };
-		CA6A42D81FA25B5C00CC5DDE /* DataandInformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42D71FA25B5C00CC5DDE /* DataandInformationController.swift */; };
+		CA6A42D41FA25B3E00CC5DDE /* Creativity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42D31FA25B3E00CC5DDE /* Creativity.swift */; };
+		CA6A42D61FA25B4F00CC5DDE /* Abstration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42D51FA25B4F00CC5DDE /* Abstration.swift */; };
+		CA6A42D81FA25B5C00CC5DDE /* DataandInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42D71FA25B5C00CC5DDE /* DataandInformation.swift */; };
 		CA6A42DA1FA25B6E00CC5DDE /* AlgorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42D91FA25B6E00CC5DDE /* AlgorithmsController.swift */; };
-		CA6A42DC1FA25B7900CC5DDE /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42DB1FA25B7900CC5DDE /* ProgrammingController.swift */; };
-		CA6A42DE1FA25B8800CC5DDE /* TheInternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42DD1FA25B8800CC5DDE /* TheInternetController.swift */; };
-		CA6A42E01FA25B9F00CC5DDE /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42DF1FA25B9F00CC5DDE /* GlobalImpactController.swift */; };
+		CA6A42DC1FA25B7900CC5DDE /* Programming.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42DB1FA25B7900CC5DDE /* Programming.swift */; };
+		CA6A42DE1FA25B8800CC5DDE /* TheInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42DD1FA25B8800CC5DDE /* TheInternet.swift */; };
+		CA6A42E01FA25B9F00CC5DDE /* GlobalImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42DF1FA25B9F00CC5DDE /* GlobalImpact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +31,13 @@
 		CA6A42B51FA256AA00CC5DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA6A42B81FA256AA00CC5DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA6A42BA1FA256AA00CC5DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA6A42D31FA25B3E00CC5DDE /* CreativityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityController.swift; sourceTree = "<group>"; };
-		CA6A42D51FA25B4F00CC5DDE /* AbstrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstrationController.swift; sourceTree = "<group>"; };
-		CA6A42D71FA25B5C00CC5DDE /* DataandInformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataandInformationController.swift; sourceTree = "<group>"; };
+		CA6A42D31FA25B3E00CC5DDE /* Creativity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creativity.swift; sourceTree = "<group>"; };
+		CA6A42D51FA25B4F00CC5DDE /* Abstration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstration.swift; sourceTree = "<group>"; };
+		CA6A42D71FA25B5C00CC5DDE /* DataandInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataandInformation.swift; sourceTree = "<group>"; };
 		CA6A42D91FA25B6E00CC5DDE /* AlgorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsController.swift; sourceTree = "<group>"; };
-		CA6A42DB1FA25B7900CC5DDE /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
-		CA6A42DD1FA25B8800CC5DDE /* TheInternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternetController.swift; sourceTree = "<group>"; };
-		CA6A42DF1FA25B9F00CC5DDE /* GlobalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactController.swift; sourceTree = "<group>"; };
+		CA6A42DB1FA25B7900CC5DDE /* Programming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programming.swift; sourceTree = "<group>"; };
+		CA6A42DD1FA25B8800CC5DDE /* TheInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternet.swift; sourceTree = "<group>"; };
+		CA6A42DF1FA25B9F00CC5DDE /* GlobalImpact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,13 +84,13 @@
 			children = (
 				CA6A42B01FA256AA00CC5DDE /* ViewController.swift */,
 				CA6A42AE1FA256AA00CC5DDE /* AppDelegate.swift */,
-				CA6A42D31FA25B3E00CC5DDE /* CreativityController.swift */,
-				CA6A42D51FA25B4F00CC5DDE /* AbstrationController.swift */,
-				CA6A42D71FA25B5C00CC5DDE /* DataandInformationController.swift */,
+				CA6A42D31FA25B3E00CC5DDE /* Creativity.swift */,
+				CA6A42D51FA25B4F00CC5DDE /* Abstration.swift */,
+				CA6A42D71FA25B5C00CC5DDE /* DataandInformation.swift */,
 				CA6A42D91FA25B6E00CC5DDE /* AlgorithmsController.swift */,
-				CA6A42DB1FA25B7900CC5DDE /* ProgrammingController.swift */,
-				CA6A42DD1FA25B8800CC5DDE /* TheInternetController.swift */,
-				CA6A42DF1FA25B9F00CC5DDE /* GlobalImpactController.swift */,
+				CA6A42DB1FA25B7900CC5DDE /* Programming.swift */,
+				CA6A42DD1FA25B8800CC5DDE /* TheInternet.swift */,
+				CA6A42DF1FA25B9F00CC5DDE /* GlobalImpact.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -193,15 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA6A42D41FA25B3E00CC5DDE /* CreativityController.swift in Sources */,
+				CA6A42D41FA25B3E00CC5DDE /* Creativity.swift in Sources */,
 				CA6A42B11FA256AA00CC5DDE /* ViewController.swift in Sources */,
 				CA6A42AF1FA256AA00CC5DDE /* AppDelegate.swift in Sources */,
-				CA6A42DC1FA25B7900CC5DDE /* ProgrammingController.swift in Sources */,
+				CA6A42DC1FA25B7900CC5DDE /* Programming.swift in Sources */,
 				CA6A42DA1FA25B6E00CC5DDE /* AlgorithmsController.swift in Sources */,
-				CA6A42DE1FA25B8800CC5DDE /* TheInternetController.swift in Sources */,
-				CA6A42D61FA25B4F00CC5DDE /* AbstrationController.swift in Sources */,
-				CA6A42D81FA25B5C00CC5DDE /* DataandInformationController.swift in Sources */,
-				CA6A42E01FA25B9F00CC5DDE /* GlobalImpactController.swift in Sources */,
+				CA6A42DE1FA25B8800CC5DDE /* TheInternet.swift in Sources */,
+				CA6A42D61FA25B4F00CC5DDE /* Abstration.swift in Sources */,
+				CA6A42D81FA25B5C00CC5DDE /* DataandInformation.swift in Sources */,
+				CA6A42E01FA25B9F00CC5DDE /* GlobalImpact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Jian_CSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Jian_CSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Jian-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,7 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Jian_CSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Jian_CSP/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Jian-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";

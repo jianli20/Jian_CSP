@@ -20,7 +20,7 @@ class GlobalImpact: UIViewController
         
         secondLabel.text = "The global impact has effected my personally by changing the environment around me. Temperatures have noticably gone up and droughts are already occuring."
         
-        
+        firstImage.image = #imageLiteral(resourceName: "Impact App")
     }
     
    override public func viewDidLoad()
