@@ -30,12 +30,46 @@ public class Abstration: UIPageViewController, UIPageViewControllerDataSource
         override public func viewDidLoad()
         {
             super.viewDidLoad()
-            // Do any additional setup after loading the view, typically from a nib.
+            dataSource = self
+           
+            if let firstViewController = orderedAbstractionViews.first
+            {
+                setViewControllers([firstViewController],
+                                               direction: .forward,
+                                               animated: true,
+                                               completion: nil)
+            }
         }
+    
+    public func pageViewController(_ pageViewController: UIPageViewController, viewCotrllerBefore viewController: UIViewController) -> UIViewController?
+    {
+        guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
+        else
+        {
+            return nil
+        }
+        
+        let previousIndex = viewControllerIndex - 1
+        
+        guard previousIndex >= 0
+        else
+        {
+            return orderedAbstractionViews.last
+        }
+        
+        guard orderedAbstractionViews.count > previousIndex
+        else
+        {
+            return nil
+        }
+        
+        return orderedAbstractionViews[previousIndex]
+    }
+    
         override public func didReceiveMemoryWarning()
         {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
         }
 }
 
