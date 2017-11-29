@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CA53AD101FBB718900999006 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA53AD0F1FBB718900999006 /* Default-568h@2x.png */; };
+		CA59903E1FCF3700001C46E5 /* TheInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA59903D1FCF3700001C46E5 /* TheInternet.swift */; };
+		CA5990411FCF39E4001C46E5 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5990401FCF39E4001C46E5 /* InternetDetailViewController.swift */; };
+		CA5990441FCF3B98001C46E5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5990431FCF3B98001C46E5 /* WebKit.framework */; };
 		CA6A42AF1FA256AA00CC5DDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42AE1FA256AA00CC5DDE /* AppDelegate.swift */; };
 		CA6A42B11FA256AA00CC5DDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42B01FA256AA00CC5DDE /* ViewController.swift */; };
 		CA6A42B41FA256AA00CC5DDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6A42B21FA256AA00CC5DDE /* Main.storyboard */; };
@@ -25,6 +28,9 @@
 
 /* Begin PBXFileReference section */
 		CA53AD0F1FBB718900999006 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA59903D1FCF3700001C46E5 /* TheInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternet.swift; sourceTree = "<group>"; };
+		CA5990401FCF39E4001C46E5 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		CA5990431FCF3B98001C46E5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		CA6A42AB1FA256AA00CC5DDE /* Jian_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jian_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6A42AE1FA256AA00CC5DDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA6A42B01FA256AA00CC5DDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,18 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5990441FCF3B98001C46E5 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA5990421FCF3B98001C46E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA5990431FCF3B98001C46E5 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA6A42A21FA256AA00CC5DDE = {
 			isa = PBXGroup;
 			children = (
 				CA53AD0F1FBB718900999006 /* Default-568h@2x.png */,
 				CA6A42AD1FA256AA00CC5DDE /* Jian_CSP */,
 				CA6A42AC1FA256AA00CC5DDE /* Products */,
+				CA5990421FCF3B98001C46E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +108,8 @@
 				CA6A42D91FA25B6E00CC5DDE /* AlgorithmsController.swift */,
 				CA6A42DB1FA25B7900CC5DDE /* Programming.swift */,
 				CA6A42DF1FA25B9F00CC5DDE /* GlobalImpact.swift */,
+				CA59903D1FCF3700001C46E5 /* TheInternet.swift */,
+				CA5990401FCF39E4001C46E5 /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -200,8 +218,10 @@
 				CAAA0AFD1FC35F19007C72B8 /* Paintable.swift in Sources */,
 				CA6A42D41FA25B3E00CC5DDE /* Creativity.swift in Sources */,
 				CA6A42B11FA256AA00CC5DDE /* ViewController.swift in Sources */,
+				CA5990411FCF39E4001C46E5 /* InternetDetailViewController.swift in Sources */,
 				CA6A42AF1FA256AA00CC5DDE /* AppDelegate.swift in Sources */,
 				CA6A42DC1FA25B7900CC5DDE /* Programming.swift in Sources */,
+				CA59903E1FCF3700001C46E5 /* TheInternet.swift in Sources */,
 				CA6A42DA1FA25B6E00CC5DDE /* AlgorithmsController.swift in Sources */,
 				CA6A42D61FA25B4F00CC5DDE /* Abstration.swift in Sources */,
 				CA6A42D81FA25B5C00CC5DDE /* DataandInformation.swift in Sources */,
