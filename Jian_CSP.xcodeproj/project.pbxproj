@@ -18,7 +18,6 @@
 		CA6A42D81FA25B5C00CC5DDE /* DataandInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42D71FA25B5C00CC5DDE /* DataandInformation.swift */; };
 		CA6A42DA1FA25B6E00CC5DDE /* AlgorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42D91FA25B6E00CC5DDE /* AlgorithmsController.swift */; };
 		CA6A42DC1FA25B7900CC5DDE /* Programming.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42DB1FA25B7900CC5DDE /* Programming.swift */; };
-		CA6A42DE1FA25B8800CC5DDE /* TheInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42DD1FA25B8800CC5DDE /* TheInternet.swift */; };
 		CA6A42E01FA25B9F00CC5DDE /* GlobalImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42DF1FA25B9F00CC5DDE /* GlobalImpact.swift */; };
 		CAAA0AFD1FC35F19007C72B8 /* Paintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA0AFC1FC35F19007C72B8 /* Paintable.swift */; };
 		CAAA0B001FC36025007C72B8 /* isPainted.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA0AFF1FC36025007C72B8 /* isPainted.swift */; };
@@ -38,7 +37,6 @@
 		CA6A42D71FA25B5C00CC5DDE /* DataandInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataandInformation.swift; sourceTree = "<group>"; };
 		CA6A42D91FA25B6E00CC5DDE /* AlgorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsController.swift; sourceTree = "<group>"; };
 		CA6A42DB1FA25B7900CC5DDE /* Programming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programming.swift; sourceTree = "<group>"; };
-		CA6A42DD1FA25B8800CC5DDE /* TheInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternet.swift; sourceTree = "<group>"; };
 		CA6A42DF1FA25B9F00CC5DDE /* GlobalImpact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpact.swift; sourceTree = "<group>"; };
 		CAAA0AFC1FC35F19007C72B8 /* Paintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paintable.swift; sourceTree = "<group>"; };
 		CAAA0AFF1FC36025007C72B8 /* isPainted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPainted.swift; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 				CA6A42D71FA25B5C00CC5DDE /* DataandInformation.swift */,
 				CA6A42D91FA25B6E00CC5DDE /* AlgorithmsController.swift */,
 				CA6A42DB1FA25B7900CC5DDE /* Programming.swift */,
-				CA6A42DD1FA25B8800CC5DDE /* TheInternet.swift */,
 				CA6A42DF1FA25B9F00CC5DDE /* GlobalImpact.swift */,
 			);
 			path = Controller;
@@ -206,7 +203,6 @@
 				CA6A42AF1FA256AA00CC5DDE /* AppDelegate.swift in Sources */,
 				CA6A42DC1FA25B7900CC5DDE /* Programming.swift in Sources */,
 				CA6A42DA1FA25B6E00CC5DDE /* AlgorithmsController.swift in Sources */,
-				CA6A42DE1FA25B8800CC5DDE /* TheInternet.swift in Sources */,
 				CA6A42D61FA25B4F00CC5DDE /* Abstration.swift in Sources */,
 				CA6A42D81FA25B5C00CC5DDE /* DataandInformation.swift in Sources */,
 				CA6A42E01FA25B9F00CC5DDE /* GlobalImpact.swift in Sources */,
