@@ -24,6 +24,8 @@ public class InternetMasterViewController : UITableViewController
 
     private var detailViewController : InternetDetailViewController?
     
+    private lazy var addresses : [String] = []
+    
     private func setup() -> Void
     {
         addresses = [
@@ -71,5 +73,39 @@ public class InternetMasterViewController : UITableViewController
         cell.textLael!.text = currentText
         
         return cell
+    }
+    
+    
+        //MARK: Handle the internal transfer
+        override public func prepare(for segue: UIStoryboardSegue, sender: Any?)
+        {
+            if segue.identifier! == "showDetail"
+            {
+                if let indexPath = self.tableView.indexPathForSelectedRow
+                {
+                    let urlString = addresses[indexPath.row]
+                    let pageText : String
+                    
+                    if indexPath.row == 0
+                    {
+                        //TODO: Replace with your definitions - great time to use the """ operator
+                        pageText = "All the definitions you wrote....."
+                    }
+                    else
+                    {
+                        pageText = internetTopics[indexPath.row]
+                    }
+                    
+                    let controller = segue.destination as!
+                        InternetDetailViewController
+                    
+                    controller.detailAddress = urlString
+                    controller.detailText = pageText
+                    controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                    controller.navigationItem.leftItemsSupplementBackButton = true
+                }
+            }
+            
+        }
     }
 }
