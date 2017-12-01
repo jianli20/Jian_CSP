@@ -26,8 +26,22 @@ public class InternetMasterViewController : UITableViewController
     
     private func setup() -> Void
     {
+        addresses = [
+        "https://www.google.com",
+        "https://www.google.com",
+        "https://www.google.com",
+        "https://www.google.com",
+        "https://www.google.com"
+        ]
         
+        if let splitView = splitViewController
+        {
+            let currentControlllers = splitView.viewControllersdetailViewController = currentControllers[0] as?
+            InternetDetailViewController
+        }
     }
+            
+    
     
     override public func viewDidLoad()
     {
