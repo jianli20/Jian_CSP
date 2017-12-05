@@ -54,7 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewController {
     func splitViewController(_ splitViewController: UISplitViewController,  collapseSecondary SecondaryViewController :
         UISplitViewController, onto primaryViewController: UIViewController) -> Bool
     {
-        guard let secondaryAsNavController = SecondaryViewController as? UINavigaitonController
+        guard let secondaryAsNavController = SecondaryViewController as? UINavigationController
             else{return false}
         guard let topAsDetailController = secondaryAsNavController.topViewController as?
             InternetDetailViewController else {return false}
@@ -65,7 +65,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewController {
         }
         return false
         }
-                            
+    
 
 }
 

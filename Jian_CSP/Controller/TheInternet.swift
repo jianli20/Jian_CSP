@@ -29,11 +29,11 @@ public class InternetMasterViewController : UITableViewController
     private func setup() -> Void
     {
         addresses = [
-        "https://www.google.com",
-        "https://www.google.com",
-        "https://www.google.com",
-        "https://www.google.com",
-        "https://www.google.com"
+            "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles/",
+            "http://www.canyonsdistrict.org/",
+            "https://ctec.canyonsdistrict.org/",
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html",
+           "https://twitter.com"
         ]
         
         if let splitView = splitViewController
@@ -68,9 +68,9 @@ public class InternetMasterViewController : UITableViewController
     
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIndentifier", for: IndexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIndentifier", for: indexPath)
         let currentText = internetTopics[indexPath.row]
-        cell.textLael!.text = currentText
+        cell.textLabel!.text = currentText
         
         return cell
     }
@@ -105,7 +105,6 @@ public class InternetMasterViewController : UITableViewController
                     controller.navigationItem.leftItemsSupplementBackButton = true
                 }
             }
-            
         }
-    }
 }
+
