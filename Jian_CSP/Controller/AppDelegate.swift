@@ -9,7 +9,7 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewController {
+class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
     var window: UIWindow?
 
@@ -51,10 +51,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewController {
     }
 
     
-    func splitViewController(_ splitViewController: UISplitViewController,  collapseSecondary SecondaryViewController :
-        UISplitViewController, onto primaryViewController: UIViewController) -> Bool
+    func splitViewController(_ splitViewController: UISplitViewController,  collapseSecondary secondaryViewController :
+        UIViewController, onto primaryViewController: UIViewController) -> Bool
     {
-        guard let secondaryAsNavController = SecondaryViewController as? UINavigationController
+        guard let secondaryAsNavController = secondaryViewController as? UINavigationController
             else{return false}
         guard let topAsDetailController = secondaryAsNavController.topViewController as?
             InternetDetailViewController else {return false}
@@ -64,7 +64,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewController {
             return true
         }
         return false
-        }
+    }
     
 
 }
