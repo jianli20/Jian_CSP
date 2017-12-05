@@ -15,6 +15,7 @@ public class DrawingView: UIView {
     {
         drawStickFigure().stroke()
         drawHappyTree()
+        drawTurtle()
     }
     
     private func drawStickFigure() -> UIBezierPath
@@ -66,7 +67,7 @@ public class DrawingView: UIView {
         happyTree.fill()
         happyTree.move(to: CGPoint(x: 80, y: 200))
         happyTree.addLine(to: CGPoint(x: 80, y:250))
-        happyTree.lineWidth = 60
+        happyTree.lineWidth = 6.0
         happyTree.stroke()
     }
     public func drawTurtle() -> Void
