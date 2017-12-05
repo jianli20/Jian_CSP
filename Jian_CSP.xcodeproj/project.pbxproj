@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0C34EE1FD72A0B00BD02BA /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0C34ED1FD72A0B00BD02BA /* DrawingView.swift */; };
 		CA53AD101FBB718900999006 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA53AD0F1FBB718900999006 /* Default-568h@2x.png */; };
 		CA59903E1FCF3700001C46E5 /* TheInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA59903D1FCF3700001C46E5 /* TheInternet.swift */; };
 		CA5990411FCF39E4001C46E5 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5990401FCF39E4001C46E5 /* InternetDetailViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA0C34ED1FD72A0B00BD02BA /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		CA53AD0F1FBB718900999006 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CA59903D1FCF3700001C46E5 /* TheInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternet.swift; sourceTree = "<group>"; };
 		CA5990401FCF39E4001C46E5 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			children = (
 				CA6A42B21FA256AA00CC5DDE /* Main.storyboard */,
 				CA6A42B71FA256AA00CC5DDE /* LaunchScreen.storyboard */,
+				CA0C34ED1FD72A0B00BD02BA /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				CA6A42D41FA25B3E00CC5DDE /* Creativity.swift in Sources */,
 				CA6A42B11FA256AA00CC5DDE /* ViewController.swift in Sources */,
 				CA5990411FCF39E4001C46E5 /* InternetDetailViewController.swift in Sources */,
+				CA0C34EE1FD72A0B00BD02BA /* DrawingView.swift in Sources */,
 				CA6A42AF1FA256AA00CC5DDE /* AppDelegate.swift in Sources */,
 				CA6A42DC1FA25B7900CC5DDE /* Programming.swift in Sources */,
 				CA59903E1FCF3700001C46E5 /* TheInternet.swift in Sources */,
