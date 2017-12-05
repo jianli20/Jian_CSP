@@ -50,6 +50,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewController {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    func splitViewController(_ splitViewController: UISplitViewController,  collapseSecondary SecondaryViewController :
+        UISplitViewController, onto primaryViewController: UIViewController) -> Bool
+    {
+        guard let secondaryAsNavController = SecondaryViewController as? UINavigaitonController
+            else{return false}
+        guard let topAsDetailController = secondaryAsNavController.topViewController as?
+            InternetDetailViewController else {return false}
+        if topAsDetailController.detailAddress == nil
+        {
+            //Return true to indicate that we handled the collapse by doing nothing; the secondary controller iwll be discarded
+            return true
+        }
+        return false
+        }
+                            
 
 }
 
