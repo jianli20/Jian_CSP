@@ -10,13 +10,13 @@ import UIKit
 
 public class DrawingView: UIView {
 
-    override public func draw(_rect: CGRect)
+    override public func draw(_ rect: CGRect)
     
     {
         drawStickFigure().stroke()
     }
     
-    private func drawstickFigure() -> UIBezierPath
+    private func drawStickFigure() -> UIBezierPath
     {
         let stickFigure = UIBezierPath()
         
