@@ -55,7 +55,7 @@
                                 <state key="normal" title="draw"/>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2qp-av-PMf" customClass="DrawingView" customModule="Jian_CSP" customModuleProvider="target">
-                                <rect key="frame" x="16" y="56" width="343" height="300"/>
+                                <rect key="frame" x="16" y="56" width="343" height="365"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
