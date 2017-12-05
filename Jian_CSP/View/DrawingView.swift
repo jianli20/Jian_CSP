@@ -48,7 +48,7 @@ public class DrawingView: UIView {
         bobRoss.addLine(to: CGPoint(x:120, y:150))
         bobRoss.addLine(to: CGPoint(x:40, y:150))
         bobRoss.close()
-        UIColor(patternImage: UIImage(named: "pingoo")!).setFill()
+        UIColor(patternImage: UIImage(named: "pingo")!).setFill()
         UIColor.brown.setStroke()
         bobRoss.lineWidth = 2.0
         bobRoss.fill()
