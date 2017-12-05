@@ -38,8 +38,8 @@ public class InternetMasterViewController : UITableViewController
         
         if let splitView = splitViewController
         {
-            let currentControlllers = splitView.viewControllersdetailViewController = currentControllers[0] as?
-            InternetDetailViewController
+            let currentControllers = splitView.viewControllers
+            detailViewController = currentControllers[0] as?InternetDetailViewController
         }
     }
             
