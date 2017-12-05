@@ -88,8 +88,8 @@ public class InternetMasterViewController : UITableViewController
                     
                     if indexPath.row == 0
                     {
-                        //TODO: Replace with your definitions - great time to use the """ operator
-                        pageText = "All the definitions you wrote....."
+                        pageText = "URL- Uniform Resource Locator.The address of a WWW page on the internet. TCP- Transmission Control Protocol. A set of rules that governs the delivery of data over the Internet or other network that uses the Internet Protocol. IP - Internet Protocol. The unique number label assigned to every device connected to the internet, used for identification and communication. DNS- Domain Name System. Internet’s system for converting alphabetic names into IP addresses"
+
                     }
                     else
                     {
