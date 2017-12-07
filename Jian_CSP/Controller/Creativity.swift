@@ -61,4 +61,23 @@ public class Creativity: UICollectionViewController, UICollectionViewDelegateFlo
             }
         }
     }
+    
+    //Mark: lifecycle methods
+    override public func viewDidLoad()
+    {
+        super.viewDidLoad()
+    }
+    
+    //Mark:- UICollectionView methods
+    
+    override public func numberOfSections(in collectionView: UICollectionView) -> Int
+    {
+        return 1
+    }
+    
+    override public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
+    
+    {
+        return artSelection.count
+    }
 }
