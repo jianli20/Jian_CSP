@@ -8,7 +8,7 @@
 
 import UIKit
 //Mark: - Class type should inherit from UICollectionViewControllr
-public class Creativity: UIViewController, UICollectionViewDelegateFlowLayout
+public class Creativity: UICollectionViewController, UICollectionViewDelegateFlowLayout
 {
     private let reuseIdentifier = "artIdentifier"
     private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
@@ -31,4 +31,34 @@ public class Creativity: UIViewController, UICollectionViewDelegateFlowLayout
             ]
     }()
 
+    var largePhotoIndexPath: IndexPath?
+    {
+        didSet
+        {
+            var indexPaths = [IndexPath] ()
+            if let largePhotoIndexPath = largePhotoIndexPath
+            {
+                indexPaths.append(largePhotoIndexPath)
+            }
+            if let oldValue = oldValue
+            {
+                indexPaths.append(oldValue)
+            }
+            
+           collectionView?.performBatchUpdates(
+                {
+                    self.collectionView?.reloadItems(at: indexPaths)
+                })
+            {
+                completed in
+                
+                if let largePhotoIndexPath = self.largePhotoIndexPath
+                {
+                    self.collectionView?.scrollToItem(at: largePhotoIndexPath,
+                                                                          at: .centeredVertically,
+                                                                          animated: true)
+                }
+            }
+        }
+    }
 }
