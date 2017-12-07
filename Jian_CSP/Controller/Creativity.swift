@@ -7,7 +7,28 @@
 //
 
 import UIKit
-
-class Creativity: NSObject {
+//Mark: - Class type should inherit from UICollectionViewControllr
+public class Creativity: UIViewController, UICollectionViewDelegateFlowLayout
+{
+    private let reuseIdentifier = "artIdentifier"
+    private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
+    private let itemsPerRow : CGFloat = 3
+    
+    private lazy var artSelection : [UIImage?] =
+    {
+        return [
+            UIImage(named: "javaSample"),
+            UIImage(named: "pingo"),
+            UIImage(named: "fire"),
+            UIImage(named: "water"),
+            UIImage(named: "grass"),
+            UIImage(named: "squishBall"),
+            UIImage(named: "squishBall"),
+            UIImage(named: "squishBall"),
+            UIImage(named: "squishBall"),
+            UIImage(named: "squishBall"),
+            UIImage(named: "squishBall")
+            ]
+    }()
 
 }
