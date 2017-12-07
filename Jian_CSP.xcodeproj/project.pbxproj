@@ -25,6 +25,7 @@
 		CA6A42E01FA25B9F00CC5DDE /* GlobalImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A42DF1FA25B9F00CC5DDE /* GlobalImpact.swift */; };
 		CAAA0AFD1FC35F19007C72B8 /* Paintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA0AFC1FC35F19007C72B8 /* Paintable.swift */; };
 		CAAA0B001FC36025007C72B8 /* isPainted.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAA0AFF1FC36025007C72B8 /* isPainted.swift */; };
+		CADD9F861FD9D37400CFC765 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADD9F851FD9D37400CFC765 /* ArtCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		CA6A42DF1FA25B9F00CC5DDE /* GlobalImpact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpact.swift; sourceTree = "<group>"; };
 		CAAA0AFC1FC35F19007C72B8 /* Paintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paintable.swift; sourceTree = "<group>"; };
 		CAAA0AFF1FC36025007C72B8 /* isPainted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPainted.swift; sourceTree = "<group>"; };
+		CADD9F851FD9D37400CFC765 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				CA6A42DF1FA25B9F00CC5DDE /* GlobalImpact.swift */,
 				CA59903D1FCF3700001C46E5 /* TheInternet.swift */,
 				CA5990401FCF39E4001C46E5 /* InternetDetailViewController.swift */,
+				CADD9F851FD9D37400CFC765 /* ArtCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAAA0B001FC36025007C72B8 /* isPainted.swift in Sources */,
+				CADD9F861FD9D37400CFC765 /* ArtCell.swift in Sources */,
 				CAAA0AFD1FC35F19007C72B8 /* Paintable.swift in Sources */,
 				CA6A42D41FA25B3E00CC5DDE /* Creativity.swift in Sources */,
 				CA6A42B11FA256AA00CC5DDE /* ViewController.swift in Sources */,
