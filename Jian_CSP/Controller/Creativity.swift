@@ -21,13 +21,7 @@ public class Creativity: UICollectionViewController, UICollectionViewDelegateFlo
             UIImage(named: "pingo"),
             UIImage(named: "fire"),
             UIImage(named: "water"),
-            UIImage(named: "grass"),
-            UIImage(named: "squishBall"),
-            UIImage(named: "squishBall"),
-            UIImage(named: "squishBall"),
-            UIImage(named: "squishBall"),
-            UIImage(named: "squishBall"),
-            UIImage(named: "squishBall")
+            UIImage(named: "grass")
             ]
     }()
 
@@ -84,7 +78,7 @@ public class Creativity: UICollectionViewController, UICollectionViewDelegateFlo
     override public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     
     {
-        let artCell = collectionView.dequeueReuseableCell(witheuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
+        let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
         
         artCell.backgroundColor = .cyan
         artCell.imageView.image = artSelection[indexPath.row]
